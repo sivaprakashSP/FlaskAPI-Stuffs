@@ -7,4 +7,4 @@ app.config["DEBUG"] = True
 def home():
     return "<h1>5 is the sum</h1>"
 
-app.run(host='0.0.0.0')
+app.run()
