@@ -54,8 +54,8 @@ def prediabetes():
 def ModerateAcuteAsthma():
     dataset={
 
-        "Temperature": random.randint(35, 37),
-        "Pressure": random.randint(90, 120),
+        "temperature": random.randint(35, 37),
+        "pressure": random.randint(90, 120),
         "respiration": random.randint(20, 30),
         "glucose": random.randint(72, 140),
         "heartRate": random.randint(100, 125),
@@ -67,8 +67,8 @@ def ModerateAcuteAsthma():
 @app.route('/api/Hypoxemia',methods=['GET'])
 def hypoxemia():
     dataset={
-        "Temperature": random.randint(35, 37),
-        "Pressure": random.randint(90, 120),
+        "temperature": random.randint(35, 37),
+        "pressure": random.randint(90, 120),
         "respiration": random.randint(20, 30),
         "glucose": random.randint(72, 140),
         "heartRate": random.randint(100, 125),
@@ -80,8 +80,8 @@ def hypoxemia():
 @app.route('/api/Bronchiectasis',methods=['GET'])
 def bronchiectasis():
     dataset={
-        "Temperature": random.randint(35, 37),
-        "Pressure": random.randint(90, 120),
+        "temperature": random.randint(35, 37),
+        "pressure": random.randint(90, 120),
         "respiration": random.randint(40, 60),
         "glucose": random.randint(72, 140),
         "heartRate": random.randint(60, 100),
