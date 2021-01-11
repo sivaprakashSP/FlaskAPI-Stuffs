@@ -33,4 +33,4 @@ def home():
 def display():
     return "<center><h1>SP</h1></center>"
 #app.run()
-app.run(host='0.0.0.0')
+app.run()
